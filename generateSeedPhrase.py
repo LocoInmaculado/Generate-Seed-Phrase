@@ -58,12 +58,14 @@ def doce():
     for eje in range (12):
         genBit()
         semen.append(pala.rstrip())
+        semen.sort()
     print(semen)
 
 def vcua():
     for eje in range (24):
         genBit()
         semen.append(pala.rstrip())
+        semen.sort()
     print(semen)
 
 if sel == '0':
@@ -74,3 +76,5 @@ elif sel == '1':
     vcua()
 else:
     print("Not your keys, not your cryptos!")
+
+
